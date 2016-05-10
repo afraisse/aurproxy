@@ -12,7 +12,7 @@ MAINTAINER thanos@tellapart.com
 RUN apt-get update
 
 # Install python prerequisites
-RUN apt-get install -y python-pip python-dev build-essential
+RUN apt-get install -y python-pip python-dev build-essential lib4-nss-dev
 
 # Install go & libpcap
 RUN apt-get install -y golang libpcap-dev
